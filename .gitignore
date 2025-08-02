@@ -1,3 +1,13 @@
-/node_modules
-/.env
-/logs
+# Ignore node_modules everywhere (safer for monorepos)
+node_modules/
+
+# Ignore all env files (.env, .env.local, etc.)
+.env
+
+# Ignore logs and their contents
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
