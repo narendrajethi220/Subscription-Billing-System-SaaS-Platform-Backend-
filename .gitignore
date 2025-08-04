@@ -1,10 +1,7 @@
-# Ignore node_modules everywhere (safer for monorepos)
 node_modules/
 
-# Ignore all env files (.env, .env.local, etc.)
 .env
 
-# Ignore logs and their contents
 logs/
 *.log
 npm-debug.log*
